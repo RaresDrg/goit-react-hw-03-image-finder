@@ -13,7 +13,7 @@ const ImageGalleryItem = ({ image, handleModal }) => {
         src={image.webformatURL}
         className={styles['ImageGalleryItem-image']}
         data-image-url={image.largeImageURL}
-        alt="a picture with your search"
+        alt="your search"
       />
     </li>
   );

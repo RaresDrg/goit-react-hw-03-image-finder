@@ -8,7 +8,7 @@ const Modal = ({ url, closeModal }) => {
   return (
     <div className="Overlay" onClick={handleCloseModal}>
       <div className="Modal">
-        <img src={url} alt="a picture with your search" />
+        <img src={url} alt="your search" />
       </div>
     </div>
   );
